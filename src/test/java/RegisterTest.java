@@ -42,7 +42,7 @@ public class RegisterTest {
         Assertions.assertTrue(btnReset.size()>0,"Button reset ditemukan");
         Assertions.assertTrue(btnCreate.size()>0,"Button create ditemukan");
     }
-    @When("pengguna memasukkan ([^\"]*) ([^\"]*) ([^\"]*)$")
+    @When("pengguna memasukkan ([^\"]*) ([^\"]*)$")
     public void pengguna_memasukkan(String inpFirstName, String inpPassword) {
         System.out.println("3. Pengguna memasukkan nama depan, password, dan konfirmasi password");
         firstname = inpFirstName;
